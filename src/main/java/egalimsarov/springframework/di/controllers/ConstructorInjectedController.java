@@ -1,7 +1,9 @@
 package egalimsarov.springframework.di.controllers;
 
 import egalimsarov.springframework.di.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
